@@ -1,0 +1,19 @@
+version: "3"
+services:
+  mongo:
+    image: mongo
+    ports:
+    - "27017:27017"
+  api:
+    build: ./OuttaSpace-backend
+    ports:
+    - "3001:3001"
+    depends_on:
+    - mongo
+    command: npm start
+  web:
+    build: ./Space-frontend
+    ports:
+    - "8000:80"
+    links:
+    - api

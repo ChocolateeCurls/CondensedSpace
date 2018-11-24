@@ -1,0 +1,30 @@
+{
+  "name": "recipe-box",
+  "version": "1.0.0",
+  "description": "backend",
+  "scripts": {
+    "start":"node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChocolateeCurls/OuttaSpace-backend.git"
+  },
+  "author": "chocolateecurls",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChocolateeCurls/OuttaSpace-backend/issues"
+  },
+  "homepage": "https://github.com/ChocolateeCurls/OuttaSpace-backend#readme",
+  "dependencies": {
+    "express": "4.16.4",
+    "mongoose" :"5.3.6",
+    "cookie-parser":"1.4.3",
+    "morgan":"1.9.1",
+    "http-errors": "1.7.1",
+    "cors": "2.8.5",
+    "debug":"4.1.0",
+    "body-parser": "1.18.3",
+    "html":"1.0.0"
+  }
+}
